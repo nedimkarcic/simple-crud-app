@@ -1,1 +1,1 @@
-# Simple crud app: Scrapbook
+# Simple CRUD app: Scrapbook
