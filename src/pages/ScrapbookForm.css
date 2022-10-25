@@ -1,0 +1,59 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+}
+
+input {
+    padding: 8px 5px;
+    border: 1px solid gray;
+}
+
+.submit-button {
+    width: 20vw;
+    padding: 10px 0px;
+    margin-top: 5vh;
+    color: whitesmoke;
+    background-color: skyblue;
+    border: 1px solid white;
+}
+
+.link-button {
+    width: 20vw;
+    padding: 10px 0px;
+    margin-top: 2vh;
+    color: whitesmoke;
+    background-color: skyblue;
+    border: 1px solid white;
+}
+
+@media only screen and (max-width: 768px) {
+    form {
+        width: 40vw;
+    }
+    .submit-button {
+        width: 40vw;
+    }
+    .link-button {
+        width: 40vw;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    form {
+        width: 60vw;
+    }
+    .submit-button {
+        width: 60vw;
+    }
+    .link-button {
+        width: 60vw;
+    }
+}

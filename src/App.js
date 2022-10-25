@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from '../src/pages/Home'
+import ScrapbookForm from '../src/pages/ScrapbookForm'
+import PeopleList from '../src/pages/PeopleList'
+import UpdatePeopleCard from '../src/pages/UpdatePeopleCard'
+import Sidebar from './components/Sidebar'
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Sidebar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/form" element={<ScrapbookForm />} />
+        <Route path="/people" element={<PeopleList />} />
+        <Route path="/update" element={<UpdatePeopleCard />} />
+      </Routes>
+    </>
   );
 }
 

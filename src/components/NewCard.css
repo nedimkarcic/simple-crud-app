@@ -1,0 +1,40 @@
+.new-card {
+    width: 200px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1%;
+    color: whitesmoke;
+    background-color: gray;
+    opacity: 0.75;
+}
+
+.new-card p {
+    color: whitesmoke;
+}
+
+.edit-button {
+    padding: 15px 0px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    background-color: skyblue;
+}
+
+.delete-button {
+    padding: 15px 0px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    background-color: red;
+}
+
+hr {
+    width: 80%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
